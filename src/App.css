@@ -1,6 +1,13 @@
+*{
+  margin:0;
+  padding:0;
+}
 .App{
-  max-width: 400px;
-  margin: 50px auto;
+  background-color: #4169E1;
+  width: 100vw;
+  height: 100vh;
+  /* max-width: 400px; */
+  /* margin: 50px auto; */
   font-family: Arial, sans-serif;
   text-align: center;
 }
@@ -9,6 +16,7 @@ input{
   padding: 8px;
   width: 70%;
   margin-right: 10px;
+  border-radius: 10px;
 }
 
 button{
